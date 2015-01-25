@@ -1,0 +1,40 @@
+###################################################################
+              CSEE 3827: Homework 4
+	      Due: Thursday 10/30 at 10:10am (on Courseworks)
+###################################################################
+
+For this assignment, you will implement three MIPS functions.
+
+--------------------------------------------------------------------
+                        countzeroes
+
+This function takes one argument:
+	  a 32-bit value passed via a register.  
+
+It is to return: 
+   	  the number of zeroes in the 32-bit value.
+
+--------------------------------------------------------------------
+                        ispalindrome
+
+This function takes one argument:
+   string_ptr: a pointer to a null-terminated string of characters
+
+It is to return:
+    1 or 0 indicating whether or not the string is palindrome
+
+--------------------------------------------------------------------
+                       countlocalminima
+
+This function takes two arguments, in the following order:
+   array_ptr: a pointer to an array of integers
+   array_len: an integer indicating the number of integers in the array
+
+It is to return:
+   the number of local minima in the array
+
+For the purposes of this function, a local minimum is defined as a
+number smaller than its two neighbors. Given three consecutive
+integers A, B, C where B < A and B < C, B is one local minimum.
+
+
